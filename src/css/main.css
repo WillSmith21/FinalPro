@@ -96,19 +96,19 @@ textarea {
        float: left;
        border-style: solid;
        width: 960px;
-       margin-bottom: 28.125px;
+       margin-bottom: 7.0625px;
        }
 #logo{
      float:left;
      }
 .callout{
-	background-color: gold;
         box-shadow: 3px 5px 8px black;
         font-size: 20px;
 	text-align: center;
 	}
 
 #callout1{
+	 background-color: gold;
 	 float:right;
 	 margin-right: 30px;
 	 margin-bottom: 10px;
@@ -118,6 +118,7 @@ textarea {
 
 	}
 #callout2{
+	 background-color: gold;
 	 float:right;
 	 width: 200px;
          height: 100px;
@@ -128,8 +129,6 @@ textarea {
      clear: both;
      width: 960px;
      height: 785px;
-     margin-bottom: 0px;
-     padding-bottom: 0px;
      background-color: blue;
      background-image: linear-gradient(0deg, rgba(30,26,178,0.7), rgba(30,26,178,0.7)), url(../img/comppro.jpg);
      background-repeat: no-repeat;
@@ -148,13 +147,13 @@ textarea {
        text-align: justify;
        }
 #reviews{
+	margin-top: -30px;
 	width: 960px;
 	height: 623px;
-	margin-top: 0px;
-	padding-top: 0px;
 	background-color: lightyellow;
 	}
 #revhead{
+	margin-top: 15px;
 	text-align: center;
 	font-size: 25px;
 	}
@@ -178,19 +177,58 @@ textarea {
 	margin-top: 10px;
 	}
 #starbuckimg{
-	    float:right;
 	    margin-top: 20px;
 	    margin-right: 20px;
 	    }
-
-
-
-
-
-
-
-
-
+.star{
+     float:right;
+     font-size: 20px;
+     text-align: center;
+     }
+#starname{
+	 margin-top:100px;
+	 }
+#startxt{
+	clear:both;
+	margin-top: -225px;
+	font-size: 24px;
+	}
+#callout3{
+	 clear:both;
+	 background-color=blue;
+	 width: 300px;
+	 height: 50px;
+	 font-size: 28px;
+	 margin-left:330px;
+	 background-color: blue;
+	 }
+#Service{
+	margin-top: -30px;
+	width: 960px;
+	height: 385px;
+	background-color: rgb(241,240,255);
+	}
+#servhead{
+	 margin-top: 15px;
+	 text-align: center;
+	 font-size:25px;
+	 }
+#servtxt li{
+	   clear:both;
+	   font-size: 24px;
+	   margin-left: -10px;
+	   display: block;
+	   }
+#servtxt{
+	font-size: 25px;
+	margin-left: 60px;
+	}
+#servimg{
+	float:right;
+	margin-left: 0px;
+	margin-top: -225px;
+	margin-right: 10px;
+	}
 
 	
 	
